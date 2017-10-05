@@ -6,4 +6,6 @@ def display_board
   puts welcome
   2.times {puts  open_spaces, horizontal_line}
   puts open_spaces
-end 
+end
+
+display_board
