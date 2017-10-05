@@ -3,9 +3,9 @@ def display_board
   welcome = "Welcome to Tic Tac Toe"
   open_spaces = "   |   |   "
   horizontal_line = "-----------"
-  puts welcome
-  2.times {puts  open_spaces, horizontal_line}
-  puts open_spaces
+  print welcome
+  2.times {print  open_spaces, horizontal_line}
+  print open_spaces
 end
 
 display_board
